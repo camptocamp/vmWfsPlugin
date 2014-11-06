@@ -12,7 +12,7 @@
 name=Value Map from WFS
 qgisMinimumVersion=2.0
 description=read info in wfs and configure widgets of qgis autoform
-version=0.2
+version=0.3
 author=camptocamp
 email=gillian.milani@camptocamp.com
 
@@ -26,9 +26,9 @@ email=gillian.milani@camptocamp.com
 # tags are comma separated with spaces allowed
 tags=value map, wfs, attribute, widget
 
-homepage= https://github.com/gilliM/VmWfsPlugin
-tracker= https://github.com/gilliM/VmWfsPlugin/issues
-repository=https://github.com/gilliM/VmWfsPlugin
+homepage=https://github.com/camptocamp/vmWfsPlugin
+tracker=https://github.com/camptocamp/vmWfsPlugin/issues
+repository=https://github.com/camptocamp/vmWfsPlugin
 icon=icon.png
 # experimental flag
 experimental=True
