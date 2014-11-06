@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Beginning
+# with version 1.8 this is the preferred way to supply information about a
+# plugin. The current method of embedding metadata in __init__.py will
+# be supported until version 2.0
+
+# This file should be included when you package your plugin.
+
+# Mandatory items:
+
+
+[general]
+name=Value Map from WFS
+qgisMinimumVersion=2.0
+description=read info in wfs and configure widgets of qgis autoform
+version=0.2
+author=camptocamp
+email=gillian.milani@camptocamp.com
+
+# end of mandatory metadata
+
+# Optional items:
+
+# Uncomment the following line and add your changelog entries:
+# changelog=
+
+# tags are comma separated with spaces allowed
+tags=value map, wfs, attribute, widget
+
+homepage= https://github.com/gilliM/VmWfsPlugin
+tracker= https://github.com/gilliM/VmWfsPlugin/issues
+repository=https://github.com/gilliM/VmWfsPlugin
+icon=icon.png
+# experimental flag
+experimental=True
+about = The plugin look in the request DescribeFeatureType and look inside if an enumeration is present. If it is the case, it get all the values and the the wgis editor widgets to a value map with appropriate element.
+
+# deprecated flag (applies to the whole plugin, not just a single version
+deprecated=False
+
