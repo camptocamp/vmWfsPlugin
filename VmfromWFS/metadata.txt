@@ -33,6 +33,7 @@ icon=icon.png
 # experimental flag
 experimental=True
 about = The plugin look in the request DescribeFeatureType and look inside if an enumeration is present. If it is the case, it get all the values and the the wgis editor widgets to a value map with appropriate element.
+category=Web
 
 # deprecated flag (applies to the whole plugin, not just a single version
 deprecated=False
